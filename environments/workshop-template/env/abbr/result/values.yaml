@@ -1,0 +1,4 @@
+result:
+  image:
+    repository: registry/repository/abbr-result
+    tag: 1.0.0

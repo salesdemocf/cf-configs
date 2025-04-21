@@ -9,11 +9,11 @@ keywords:
 version: 1.2.0
 appVersion: 1.0.5
 sources:
-  - https://github.com/salesdemocf/configs/vote
+  - https://github.com/salesdemocf/cf-configs/charts/vote
 maintainers:
   - name: Dustin Van Buskirk
     email: dustin@codefresh.io
 dependencies:
   - name: vote
     version: 1.2.0
-    repository: file://../../../charts/vote
+    repository: file://../../../../charts/vote
