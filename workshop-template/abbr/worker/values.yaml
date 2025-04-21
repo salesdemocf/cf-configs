@@ -1,4 +1,4 @@
 worker:
   image:
-    repository: registry/repository/abbr-worker
+    repository: registry-fqdn/abbr-worker
     tag: 1.0.0

@@ -1,4 +1,4 @@
 vote:
   image:
-    repository: registry/repository/abbr-vote
+    repository: registry-fqdn/abbr-vote
     tag: 1.0.0
