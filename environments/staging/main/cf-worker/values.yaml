@@ -1,4 +1,4 @@
 worker:
   image:
-    repository: docker.io/salesdemocf/main-cf-worker
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/main-cf-worker
     tag: 1.0.1
