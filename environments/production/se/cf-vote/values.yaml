@@ -1,0 +1,4 @@
+vote:
+  image:
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/se-cf-vote
+    tag: 1.0.0
