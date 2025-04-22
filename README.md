@@ -19,6 +19,6 @@ cp -r workshop-templates/abbr/  environments/$ENVIRONMENT/$ABBR && cd environmen
 5. Add files, commmit and push
 ``` console
 git add .
-git commit "Add files for $ABBR"
+git commit -m  "Add files for $ABBR"
 git push --set-upstream origin $ABBR
 ```
