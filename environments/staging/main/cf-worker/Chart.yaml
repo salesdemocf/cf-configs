@@ -7,7 +7,6 @@ keywords:
   - example-voting-app
   - worker
 version: 1.2.0
-appVersion: 1.0.0
 sources:
   - https://github.com/salesdemocf/configs/worker
 maintainers:
@@ -16,4 +15,5 @@ maintainers:
 dependencies:
   - name: worker
     version: 1.2.0
-    repository: file://../../../charts/worker
+    repository: file://../../../../charts/worker
+appVersion: 1.0.0
