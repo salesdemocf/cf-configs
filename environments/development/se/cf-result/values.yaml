@@ -1,4 +1,4 @@
 result:
   image:
-    repository: codedev.jfrog.io/poc-demo-1-docker-local/se-result
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/se-cf-result
     tag: 1.0.0
