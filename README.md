@@ -9,5 +9,5 @@ export REGISTRY=<Image Registry + Repository FQDN Format>
 Run the following command once per environment you'd like to configure after setting the Environment Variables.
 
 ``` console
-cp -r workshop-template/abbr/  environments/$ENVIRONMENT/$ABBR && cd environments/$ENVIRONMENT/$ABBR && find . -type f -name "*.yaml" -exec sed -i .bak -e "s|abbr|$ABBR|g ; s|registry-fqdn|$REGISTRY|g" {} +
+cp -r workshop-templates/abbr/  environments/$ENVIRONMENT/$ABBR && cd environments/$ENVIRONMENT/$ABBR && find . -type f -name "*.yaml" -exec sed -i .bak -e "s|abbr|$ABBR|g ; s|registry-fqdn|$REGISTRY|g" {} +
 ```
