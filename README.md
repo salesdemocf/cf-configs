@@ -14,6 +14,8 @@ git clone ...
 git checkout -b $ABBR
 ```
 4. Run the following command once per environment you'd like to configure after setting the Environment Variables.
+> [! TIP]
+> Make sure you're in the root of cf-configs to run the rest of the commands.
 ``` console
 cp -r workshop-templates/abbr/  environments/$ENVIRONMENT/$ABBR && cd environments/$ENVIRONMENT/$ABBR && find . -type f -name "values.yaml" -exec sed -i .bak -e "s|abbr|$ABBR|g ; s|registry-fqdn|$REGISTRY|g" {} +
 ```
