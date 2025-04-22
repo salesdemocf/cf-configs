@@ -16,4 +16,4 @@ maintainers:
 dependencies:
   - name: vote
     version: 1.2.0
-    repository: file://../../../charts/vote
+    repository: file://../../../../../charts/vote
