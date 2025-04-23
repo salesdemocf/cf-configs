@@ -1,0 +1,15 @@
+postgresql:
+  enabled: true
+  auth:
+    postgresPassword: postgres
+  primary:
+    persistence:
+      enabled: false
+
+redis:
+  enabled: true
+  auth: 
+    enabled: false
+  master:
+    persistence:
+      enabled: false
