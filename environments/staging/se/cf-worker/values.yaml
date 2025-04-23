@@ -1,4 +1,4 @@
 worker:
   image:
-    repository: codedev.jfrog.io/poc-demo-1-docker-local/se-cf-worker
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/cf-workshop/cf-worker
     tag: se-1.0.3
