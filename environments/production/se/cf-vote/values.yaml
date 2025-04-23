@@ -1,4 +1,4 @@
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/cf-workshop/cf-vote
-    tag: main-1.0.3
+    tag: se-1.0.4
